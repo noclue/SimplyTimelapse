@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Simply Timelapse</string>
+    <string name="action_settings">Настройки</string>
+    <string name="not_connected">Няма връзка. Пуснете функцията за дистанционно управление на вашия апарат (например: пуснете приложението Smart Remote Control). Свържете телефона си към WiFi мрежата на апарата. Нетиснете бутона "Сканирай WiFi".</string>
+    <string name="scan">Сканирай WiFi</string>
+    <string name="interval">Интервал [Сек]</string>
+    <string name="frames">Брой кадри</string>
+    <string name="start">Започни</string>
+    <string name="stop">Стоп</string>
+    
+    <string name="defaultInterval">5</string>
+    <string name="defaultFrames">100</string>
+        
+    <string name="msg_error_non_supported_device">Свързаната камера не се поддържа</string>
+    <string name="msg_error_connection">Не може да се установи връзка. Пробвайте отново.</string>
+    <string name="msg_unregognized_device">Не е открито поддържано устройство. Проверете дали WiFi връзката е към камерата Ви а не към друго UPNP устройство</string>
+	<string name="msg_connected_to">Свързано към %1$s.</string>
+	
+	<string name="msg_timelapse_progress" >Остават %1$d кадри. Интервал %2$.1f</string>
+	<string name="msg_timelapse_complete" >Снимките приключиха.</string>
+	<string name="msg_timelapse_error" >Грешка по време на снимките: %1$s</string>
+	<string name="msg_minimal_interval" >Минималния интервал е %d секунди</string>
+	<string name="msg_invalid_frames" >Броя кадри трябва да е положително число </string>	
+	<string name="msg_numbers_required" >Интервала и броя кадри трябва да са числа.</string>
+	<string name="msg_timelapse_in_progress" >Timelapse вече се заснема.</string>
+		
+	
+	<string name="preview">Преглед</string>
+</resources>

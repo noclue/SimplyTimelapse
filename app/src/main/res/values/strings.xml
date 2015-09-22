@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Simply Timelapse</string>
+    <string name="action_settings">Settings</string>
+    <string name="not_connected">Not Connected. Start your camera remote control WiFi function, connect your phone to the camera WiFi and press the "Scan WiFi" button</string>
+    <string name="scan">Scan WiFi</string>
+    <string name="interval">Interval [S]</string>
+    <string name="frames">Number of frames</string>
+    <string name="start">Start Timelapse</string>
+    <string name="stop">Stop</string>
+    
+    <string name="defaultInterval">5</string>
+    <string name="defaultFrames">100</string>
+        
+    <string name="msg_error_non_supported_device">The attached camera is not supported</string>
+    <string name="msg_error_connection">Cannot connect. Try again.</string>
+    <string name="msg_unregognized_device">Cannot find the correct device. Make sure there is only one camera connected and no other UPNP devices</string>
+	<string name="msg_connected_to">Connected to %1$s.</string>
+	
+	<string name="msg_timelapse_progress" >%1$d frames remaining. Interval %2$.1f</string>
+	<string name="msg_timelapse_complete" >Timelapse is complete.</string>
+	<string name="msg_timelapse_error" >Error completing timelapse: %1$s</string>
+	<string name="msg_minimal_interval" >The minimal interval between shots is %d seconds</string>
+	<string name="msg_invalid_frames" >Number of frames must be more than zero</string>	
+	<string name="msg_numbers_required" >Interval and number of frames must be numbers</string>
+	<string name="msg_timelapse_in_progress" >Timelapse is already in progress</string>
+			
+	<string name="preview">Preview</string>
+</resources>
